@@ -74,16 +74,7 @@ public class TotalLetterCount{
     
         // Classe Combiner
         TotalLetterCountJob.setCombinerClass(TotalLetterCountReducer.class);
-    
-        /*
-        In questo script basta che il reducer sia sempre uno
-        if (argMap.containsKey("numReducers")) {
-            TotalLetterCountJob.setNumReduceTasks(Integer.parseInt(argMap.get("numReducers")));
-        } else {
-            TotalLetterCountJob.setNumReduceTasks(numReducerTasks);
-        }
-        */
-    
+
         // classi per l'output del mapper
         TotalLetterCountJob.setMapOutputKeyClass(Text.class);
         TotalLetterCountJob.setMapOutputValueClass(LongWritable.class);
@@ -103,27 +94,5 @@ public class TotalLetterCount{
         return TotalLetterCountJob;
     }
     
-/*
-   public static void main(String[] args) throws Exception {
-    Configuration conf = new Configuration();
-    String[] otherArgs = new GenericOptionsParser(conf, args).getRemainingArgs();
-    if (otherArgs.length < 2) {
-      System.err.println("Usage: wordcount <in> [<in>...] <out>");
-      System.exit(2);
-    }
-    Job job = Job.getInstance(conf, "word count");
-    job.setJarByClass(TotalLetterCount.class);
-    job.setMapperClass(TotalLetterCountMapper.class);
-    job.setCombinerClass(TotalLetterCountReducer.class);
-    job.setReducerClass(TotalLetterCountReducer.class);
-    job.setOutputKeyClass(Text.class);
-    job.setOutputValueClass(LongWritable.class);
-    for (int i = 0; i < otherArgs.length - 1; ++i) {
-      FileInputFormat.addInputPath(job, new Path(otherArgs[i]));
-    }
-    FileOutputFormat.setOutputPath(job,
-      new Path(otherArgs[otherArgs.length - 1]));
-    System.exit(job.waitForCompletion(true) ? 0 : 1);
-  }
-    */
+
 }
