@@ -84,7 +84,7 @@ public class LetterFrequency
     public static Job configureJob(Configuration conf, Map<String, String> argMap, int numReducerTasks) throws IOException {
         Job letterFrequencyJob = Job.getInstance(conf, "Letter Frequency");
 
-        // Set the main classes
+        // Classi principali
         letterFrequencyJob.setJarByClass(LetterFrequency.class);
         letterFrequencyJob.setMapperClass(LetterFrequencyMapper.class);
         letterFrequencyJob.setCombinerClass(LetterFrequencyCombiner.class);
