@@ -1,0 +1,2 @@
+jobstart=Combiner
+reducers=3

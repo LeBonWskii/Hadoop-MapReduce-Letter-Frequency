@@ -1,0 +1,2 @@
+jobstart=InMapping
+reducers=1

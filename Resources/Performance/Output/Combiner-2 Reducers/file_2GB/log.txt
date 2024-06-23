@@ -1,0 +1,335 @@
+Input Path: /user/hadoop/Combiner/input/file_2GB.txt
+Total Letter Count Output Path: /user/hadoop/Combiner/output/output_00012/file_2GB/count
+Letter Frequency Output Path: /user/hadoop/Combiner/output/output_00012/file_2GB/frequency
+Number of Reducers: 2
+2024-06-22 14:58:10,339 INFO client.RMProxy: Connecting to ResourceManager at hadoop-namenode/10.1.1.50:8032
+2024-06-22 14:58:10,929 WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2024-06-22 14:58:10,959 INFO mapreduce.JobResourceUploader: Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/hadoop/.staging/job_1718995047229_0072
+2024-06-22 14:58:11,102 INFO sasl.SaslDataTransferClient: SASL encryption trust check: localHostTrusted = false, remoteHostTrusted = false
+2024-06-22 14:58:11,308 INFO input.FileInputFormat: Total input files to process : 1
+2024-06-22 14:58:11,368 INFO sasl.SaslDataTransferClient: SASL encryption trust check: localHostTrusted = false, remoteHostTrusted = false
+2024-06-22 14:58:11,423 INFO sasl.SaslDataTransferClient: SASL encryption trust check: localHostTrusted = false, remoteHostTrusted = false
+2024-06-22 14:58:11,446 INFO mapreduce.JobSubmitter: number of splits:16
+2024-06-22 14:58:11,595 INFO sasl.SaslDataTransferClient: SASL encryption trust check: localHostTrusted = false, remoteHostTrusted = false
+2024-06-22 14:58:11,639 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1718995047229_0072
+2024-06-22 14:58:11,639 INFO mapreduce.JobSubmitter: Executing with tokens: []
+2024-06-22 14:58:11,876 INFO conf.Configuration: resource-types.xml not found
+2024-06-22 14:58:11,877 INFO resource.ResourceUtils: Unable to find 'resource-types.xml'.
+2024-06-22 14:58:11,997 INFO impl.YarnClientImpl: Submitted application application_1718995047229_0072
+2024-06-22 14:58:12,049 INFO mapreduce.Job: The url to track the job: http://hadoop-namenode:8088/proxy/application_1718995047229_0072/
+2024-06-22 14:58:12,049 INFO mapreduce.Job: Running job: job_1718995047229_0072
+2024-06-22 14:58:19,220 INFO mapreduce.Job: Job job_1718995047229_0072 running in uber mode : false
+2024-06-22 14:58:19,222 INFO mapreduce.Job:  map 0% reduce 0%
+2024-06-22 14:58:46,625 INFO mapreduce.Job:  map 1% reduce 0%
+2024-06-22 14:58:52,707 INFO mapreduce.Job:  map 2% reduce 0%
+2024-06-22 14:59:04,866 INFO mapreduce.Job:  map 3% reduce 0%
+2024-06-22 14:59:10,930 INFO mapreduce.Job:  map 4% reduce 0%
+2024-06-22 14:59:17,013 INFO mapreduce.Job:  map 5% reduce 0%
+2024-06-22 14:59:29,188 INFO mapreduce.Job:  map 6% reduce 0%
+2024-06-22 14:59:35,253 INFO mapreduce.Job:  map 7% reduce 0%
+2024-06-22 14:59:41,309 INFO mapreduce.Job:  map 8% reduce 0%
+2024-06-22 14:59:48,432 INFO mapreduce.Job:  map 9% reduce 0%
+2024-06-22 14:59:59,537 INFO mapreduce.Job:  map 10% reduce 0%
+2024-06-22 15:00:05,619 INFO mapreduce.Job:  map 11% reduce 0%
+2024-06-22 15:00:12,700 INFO mapreduce.Job:  map 12% reduce 0%
+2024-06-22 15:00:18,807 INFO mapreduce.Job:  map 13% reduce 0%
+2024-06-22 15:00:29,950 INFO mapreduce.Job:  map 14% reduce 0%
+2024-06-22 15:00:37,024 INFO mapreduce.Job:  map 15% reduce 0%
+2024-06-22 15:00:43,091 INFO mapreduce.Job:  map 16% reduce 0%
+2024-06-22 15:00:49,156 INFO mapreduce.Job:  map 17% reduce 0%
+2024-06-22 15:01:01,278 INFO mapreduce.Job:  map 18% reduce 0%
+2024-06-22 15:01:07,357 INFO mapreduce.Job:  map 19% reduce 0%
+2024-06-22 15:01:13,431 INFO mapreduce.Job:  map 20% reduce 0%
+2024-06-22 15:01:20,544 INFO mapreduce.Job:  map 21% reduce 0%
+2024-06-22 15:01:31,698 INFO mapreduce.Job:  map 22% reduce 0%
+2024-06-22 15:01:38,773 INFO mapreduce.Job:  map 23% reduce 0%
+2024-06-22 15:01:44,834 INFO mapreduce.Job:  map 24% reduce 0%
+2024-06-22 15:01:55,937 INFO mapreduce.Job:  map 27% reduce 0%
+2024-06-22 15:01:56,943 INFO mapreduce.Job:  map 29% reduce 0%
+2024-06-22 15:01:57,950 INFO mapreduce.Job:  map 38% reduce 0%
+2024-06-22 15:02:22,149 INFO mapreduce.Job:  map 38% reduce 13%
+2024-06-22 15:02:27,195 INFO mapreduce.Job:  map 39% reduce 13%
+2024-06-22 15:02:33,236 INFO mapreduce.Job:  map 40% reduce 13%
+2024-06-22 15:02:44,320 INFO mapreduce.Job:  map 41% reduce 13%
+2024-06-22 15:02:51,363 INFO mapreduce.Job:  map 42% reduce 13%
+2024-06-22 15:02:57,402 INFO mapreduce.Job:  map 43% reduce 13%
+2024-06-22 15:03:04,443 INFO mapreduce.Job:  map 44% reduce 13%
+2024-06-22 15:03:15,511 INFO mapreduce.Job:  map 45% reduce 13%
+2024-06-22 15:03:21,551 INFO mapreduce.Job:  map 46% reduce 13%
+2024-06-22 15:03:28,633 INFO mapreduce.Job:  map 47% reduce 13%
+2024-06-22 15:03:39,704 INFO mapreduce.Job:  map 48% reduce 13%
+2024-06-22 15:03:45,750 INFO mapreduce.Job:  map 49% reduce 13%
+2024-06-22 15:03:52,794 INFO mapreduce.Job:  map 50% reduce 13%
+2024-06-22 15:03:58,832 INFO mapreduce.Job:  map 51% reduce 13%
+2024-06-22 15:04:09,912 INFO mapreduce.Job:  map 52% reduce 13%
+2024-06-22 15:04:16,958 INFO mapreduce.Job:  map 53% reduce 13%
+2024-06-22 15:04:23,000 INFO mapreduce.Job:  map 54% reduce 13%
+2024-06-22 15:04:34,082 INFO mapreduce.Job:  map 55% reduce 13%
+2024-06-22 15:04:41,127 INFO mapreduce.Job:  map 56% reduce 13%
+2024-06-22 15:04:48,170 INFO mapreduce.Job:  map 57% reduce 13%
+2024-06-22 15:04:57,255 INFO mapreduce.Job:  map 59% reduce 13%
+2024-06-22 15:04:59,296 INFO mapreduce.Job:  map 60% reduce 15%
+2024-06-22 15:05:00,303 INFO mapreduce.Job:  map 62% reduce 15%
+2024-06-22 15:05:01,309 INFO mapreduce.Job:  map 64% reduce 15%
+2024-06-22 15:05:05,334 INFO mapreduce.Job:  map 69% reduce 23%
+2024-06-22 15:05:28,489 INFO mapreduce.Job:  map 70% reduce 23%
+2024-06-22 15:05:35,536 INFO mapreduce.Job:  map 71% reduce 23%
+2024-06-22 15:05:44,596 INFO mapreduce.Job:  map 72% reduce 23%
+2024-06-22 15:05:50,636 INFO mapreduce.Job:  map 73% reduce 23%
+2024-06-22 15:05:59,701 INFO mapreduce.Job:  map 74% reduce 23%
+2024-06-22 15:06:06,746 INFO mapreduce.Job:  map 75% reduce 23%
+2024-06-22 15:06:14,789 INFO mapreduce.Job:  map 76% reduce 23%
+2024-06-22 15:06:23,841 INFO mapreduce.Job:  map 77% reduce 23%
+2024-06-22 15:06:30,879 INFO mapreduce.Job:  map 78% reduce 23%
+2024-06-22 15:06:38,921 INFO mapreduce.Job:  map 79% reduce 23%
+2024-06-22 15:06:46,965 INFO mapreduce.Job:  map 80% reduce 23%
+2024-06-22 15:06:55,013 INFO mapreduce.Job:  map 81% reduce 23%
+2024-06-22 15:07:01,044 INFO mapreduce.Job:  map 82% reduce 23%
+2024-06-22 15:07:10,096 INFO mapreduce.Job:  map 83% reduce 23%
+2024-06-22 15:07:19,158 INFO mapreduce.Job:  map 84% reduce 23%
+2024-06-22 15:07:25,207 INFO mapreduce.Job:  map 85% reduce 23%
+2024-06-22 15:07:34,259 INFO mapreduce.Job:  map 86% reduce 23%
+2024-06-22 15:07:42,334 INFO mapreduce.Job:  map 87% reduce 23%
+2024-06-22 15:07:50,409 INFO mapreduce.Job:  map 88% reduce 23%
+2024-06-22 15:07:58,464 INFO mapreduce.Job:  map 89% reduce 23%
+2024-06-22 15:08:00,481 INFO mapreduce.Job:  map 91% reduce 25%
+2024-06-22 15:08:04,505 INFO mapreduce.Job:  map 93% reduce 25%
+2024-06-22 15:08:05,512 INFO mapreduce.Job:  map 98% reduce 25%
+2024-06-22 15:08:06,517 INFO mapreduce.Job:  map 100% reduce 31%
+2024-06-22 15:08:08,531 INFO mapreduce.Job:  map 100% reduce 100%
+2024-06-22 15:08:08,543 INFO mapreduce.Job: Job job_1718995047229_0072 completed successfully
+2024-06-22 15:08:08,688 INFO mapreduce.Job: Counters: 55
+	File System Counters
+		FILE: Number of bytes read=47734
+		FILE: Number of bytes written=3769245
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=2147547200
+		HDFS: Number of bytes written=24
+		HDFS: Number of read operations=53
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Killed map tasks=1
+		Launched map tasks=16
+		Launched reduce tasks=1
+		Data-local map tasks=7
+		Rack-local map tasks=9
+		Total time spent by all maps in occupied slots (ms)=6201448
+		Total time spent by all reduces in occupied slots (ms)=734668
+		Total time spent by all map tasks (ms)=3100724
+		Total time spent by all reduce tasks (ms)=367334
+		Total vcore-milliseconds taken by all map tasks=3100724
+		Total vcore-milliseconds taken by all reduce tasks=367334
+		Total megabyte-milliseconds taken by all map tasks=793785344
+		Total megabyte-milliseconds taken by all reduce tasks=94037504
+	Map-Reduce Framework
+		Map input records=39753957
+		Map output records=2067966089
+		Map output bytes=43427287869
+		Map output materialized bytes=464
+		Input split bytes=2112
+		Combine input records=2067967017
+		Combine output records=944
+		Reduce input groups=1
+		Reduce shuffle bytes=464
+		Reduce input records=16
+		Reduce output records=1
+		Spilled Records=1824
+		Shuffled Maps =16
+		Failed Shuffles=0
+		Merged Map outputs=16
+		GC time elapsed (ms)=27272
+		CPU time spent (ms)=1078520
+		Physical memory (bytes) snapshot=4641099776
+		Virtual memory (bytes) snapshot=31829233664
+		Total committed heap usage (bytes)=3561488384
+		Peak Map Physical memory (bytes)=280559616
+		Peak Map Virtual memory (bytes)=1873920000
+		Peak Reduce Physical memory (bytes)=180977664
+		Peak Reduce Virtual memory (bytes)=1880055808
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=2147545088
+	File Output Format Counters 
+		Bytes Written=24
+2024-06-22 15:08:08,758 INFO sasl.SaslDataTransferClient: SASL encryption trust check: localHostTrusted = false, remoteHostTrusted = false
+Il file di output è vuoto: part-r-00000
+2024-06-22 15:08:08,814 INFO client.RMProxy: Connecting to ResourceManager at hadoop-namenode/10.1.1.50:8032
+2024-06-22 15:08:08,829 WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2024-06-22 15:08:08,837 INFO mapreduce.JobResourceUploader: Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/hadoop/.staging/job_1718995047229_0073
+2024-06-22 15:08:08,860 INFO sasl.SaslDataTransferClient: SASL encryption trust check: localHostTrusted = false, remoteHostTrusted = false
+2024-06-22 15:08:08,894 INFO input.FileInputFormat: Total input files to process : 1
+2024-06-22 15:08:08,922 INFO sasl.SaslDataTransferClient: SASL encryption trust check: localHostTrusted = false, remoteHostTrusted = false
+2024-06-22 15:08:08,975 INFO sasl.SaslDataTransferClient: SASL encryption trust check: localHostTrusted = false, remoteHostTrusted = false
+2024-06-22 15:08:09,003 INFO mapreduce.JobSubmitter: number of splits:16
+2024-06-22 15:08:09,043 INFO sasl.SaslDataTransferClient: SASL encryption trust check: localHostTrusted = false, remoteHostTrusted = false
+2024-06-22 15:08:09,110 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1718995047229_0073
+2024-06-22 15:08:09,110 INFO mapreduce.JobSubmitter: Executing with tokens: []
+2024-06-22 15:08:09,145 INFO impl.YarnClientImpl: Submitted application application_1718995047229_0073
+2024-06-22 15:08:09,150 INFO mapreduce.Job: The url to track the job: http://hadoop-namenode:8088/proxy/application_1718995047229_0073/
+2024-06-22 15:08:09,150 INFO mapreduce.Job: Running job: job_1718995047229_0073
+2024-06-22 15:08:20,362 INFO mapreduce.Job: Job job_1718995047229_0073 running in uber mode : false
+2024-06-22 15:08:20,363 INFO mapreduce.Job:  map 0% reduce 0%
+2024-06-22 15:08:47,676 INFO mapreduce.Job:  map 1% reduce 0%
+2024-06-22 15:09:05,816 INFO mapreduce.Job:  map 2% reduce 0%
+2024-06-22 15:09:18,927 INFO mapreduce.Job:  map 3% reduce 0%
+2024-06-22 15:09:36,040 INFO mapreduce.Job:  map 4% reduce 0%
+2024-06-22 15:09:54,165 INFO mapreduce.Job:  map 5% reduce 0%
+2024-06-22 15:10:07,263 INFO mapreduce.Job:  map 6% reduce 0%
+2024-06-22 15:10:24,389 INFO mapreduce.Job:  map 7% reduce 0%
+2024-06-22 15:10:37,473 INFO mapreduce.Job:  map 8% reduce 0%
+2024-06-22 15:10:55,586 INFO mapreduce.Job:  map 9% reduce 0%
+2024-06-22 15:11:07,663 INFO mapreduce.Job:  map 10% reduce 0%
+2024-06-22 15:11:24,782 INFO mapreduce.Job:  map 11% reduce 0%
+2024-06-22 15:11:37,866 INFO mapreduce.Job:  map 12% reduce 0%
+2024-06-22 15:11:50,967 INFO mapreduce.Job:  map 13% reduce 0%
+2024-06-22 15:12:08,063 INFO mapreduce.Job:  map 14% reduce 0%
+2024-06-22 15:12:21,159 INFO mapreduce.Job:  map 15% reduce 0%
+2024-06-22 15:12:38,270 INFO mapreduce.Job:  map 16% reduce 0%
+2024-06-22 15:12:51,347 INFO mapreduce.Job:  map 17% reduce 0%
+2024-06-22 15:13:08,448 INFO mapreduce.Job:  map 18% reduce 0%
+2024-06-22 15:13:21,554 INFO mapreduce.Job:  map 19% reduce 0%
+2024-06-22 15:13:34,631 INFO mapreduce.Job:  map 20% reduce 0%
+2024-06-22 15:13:51,729 INFO mapreduce.Job:  map 21% reduce 0%
+2024-06-22 15:14:04,802 INFO mapreduce.Job:  map 22% reduce 0%
+2024-06-22 15:14:21,911 INFO mapreduce.Job:  map 23% reduce 0%
+2024-06-22 15:14:34,003 INFO mapreduce.Job:  map 24% reduce 0%
+2024-06-22 15:14:52,103 INFO mapreduce.Job:  map 25% reduce 0%
+2024-06-22 15:14:57,133 INFO mapreduce.Job:  map 29% reduce 0%
+2024-06-22 15:15:01,157 INFO mapreduce.Job:  map 31% reduce 0%
+2024-06-22 15:15:03,168 INFO mapreduce.Job:  map 33% reduce 0%
+2024-06-22 15:15:04,177 INFO mapreduce.Job:  map 37% reduce 0%
+2024-06-22 15:15:05,184 INFO mapreduce.Job:  map 38% reduce 0%
+2024-06-22 15:15:28,309 INFO mapreduce.Job:  map 38% reduce 6%
+2024-06-22 15:15:30,320 INFO mapreduce.Job:  map 38% reduce 13%
+2024-06-22 15:15:36,357 INFO mapreduce.Job:  map 39% reduce 13%
+2024-06-22 15:15:50,457 INFO mapreduce.Job:  map 40% reduce 13%
+2024-06-22 15:16:07,550 INFO mapreduce.Job:  map 41% reduce 13%
+2024-06-22 15:16:20,625 INFO mapreduce.Job:  map 42% reduce 13%
+2024-06-22 15:16:37,713 INFO mapreduce.Job:  map 43% reduce 13%
+2024-06-22 15:16:52,827 INFO mapreduce.Job:  map 44% reduce 13%
+2024-06-22 15:17:07,906 INFO mapreduce.Job:  map 45% reduce 13%
+2024-06-22 15:17:22,990 INFO mapreduce.Job:  map 46% reduce 13%
+2024-06-22 15:17:38,077 INFO mapreduce.Job:  map 47% reduce 13%
+2024-06-22 15:17:53,202 INFO mapreduce.Job:  map 48% reduce 13%
+2024-06-22 15:18:08,282 INFO mapreduce.Job:  map 49% reduce 13%
+2024-06-22 15:18:23,365 INFO mapreduce.Job:  map 50% reduce 13%
+2024-06-22 15:18:39,444 INFO mapreduce.Job:  map 51% reduce 13%
+2024-06-22 15:18:53,506 INFO mapreduce.Job:  map 52% reduce 13%
+2024-06-22 15:19:08,581 INFO mapreduce.Job:  map 53% reduce 13%
+2024-06-22 15:19:24,664 INFO mapreduce.Job:  map 54% reduce 13%
+2024-06-22 15:19:31,703 INFO mapreduce.Job:  map 56% reduce 13%
+2024-06-22 15:19:32,708 INFO mapreduce.Job:  map 58% reduce 13%
+2024-06-22 15:19:33,714 INFO mapreduce.Job:  map 60% reduce 13%
+2024-06-22 15:19:34,718 INFO mapreduce.Job:  map 63% reduce 13%
+2024-06-22 15:19:35,723 INFO mapreduce.Job:  map 63% reduce 17%
+2024-06-22 15:19:37,734 INFO mapreduce.Job:  map 63% reduce 21%
+2024-06-22 15:20:04,854 INFO mapreduce.Job:  map 64% reduce 21%
+2024-06-22 15:20:19,959 INFO mapreduce.Job:  map 65% reduce 21%
+2024-06-22 15:20:35,032 INFO mapreduce.Job:  map 66% reduce 21%
+2024-06-22 15:20:47,094 INFO mapreduce.Job:  map 67% reduce 21%
+2024-06-22 15:21:03,183 INFO mapreduce.Job:  map 68% reduce 21%
+2024-06-22 15:21:17,291 INFO mapreduce.Job:  map 69% reduce 21%
+2024-06-22 15:21:35,391 INFO mapreduce.Job:  map 70% reduce 21%
+2024-06-22 15:21:51,475 INFO mapreduce.Job:  map 71% reduce 21%
+2024-06-22 15:22:05,553 INFO mapreduce.Job:  map 72% reduce 21%
+2024-06-22 15:22:22,658 INFO mapreduce.Job:  map 73% reduce 21%
+2024-06-22 15:22:39,754 INFO mapreduce.Job:  map 74% reduce 21%
+2024-06-22 15:22:53,826 INFO mapreduce.Job:  map 75% reduce 21%
+2024-06-22 15:23:09,911 INFO mapreduce.Job:  map 76% reduce 21%
+2024-06-22 15:23:24,991 INFO mapreduce.Job:  map 77% reduce 21%
+2024-06-22 15:23:40,074 INFO mapreduce.Job:  map 78% reduce 21%
+2024-06-22 15:23:55,164 INFO mapreduce.Job:  map 79% reduce 21%
+2024-06-22 15:24:00,191 INFO mapreduce.Job:  map 81% reduce 21%
+2024-06-22 15:24:01,198 INFO mapreduce.Job:  map 81% reduce 22%
+2024-06-22 15:24:03,208 INFO mapreduce.Job:  map 81% reduce 23%
+2024-06-22 15:24:05,219 INFO mapreduce.Job:  map 83% reduce 23%
+2024-06-22 15:24:07,232 INFO mapreduce.Job:  map 85% reduce 24%
+2024-06-22 15:24:08,236 INFO mapreduce.Job:  map 88% reduce 24%
+2024-06-22 15:24:09,245 INFO mapreduce.Job:  map 88% reduce 26%
+2024-06-22 15:24:13,270 INFO mapreduce.Job:  map 88% reduce 28%
+2024-06-22 15:24:15,281 INFO mapreduce.Job:  map 88% reduce 29%
+2024-06-22 15:24:36,407 INFO mapreduce.Job:  map 89% reduce 29%
+2024-06-22 15:25:00,572 INFO mapreduce.Job:  map 90% reduce 29%
+2024-06-22 15:25:24,699 INFO mapreduce.Job:  map 91% reduce 29%
+2024-06-22 15:25:48,855 INFO mapreduce.Job:  map 92% reduce 29%
+2024-06-22 15:26:12,972 INFO mapreduce.Job:  map 93% reduce 29%
+2024-06-22 15:26:37,081 INFO mapreduce.Job:  map 94% reduce 29%
+2024-06-22 15:27:01,219 INFO mapreduce.Job:  map 95% reduce 29%
+2024-06-22 15:27:25,339 INFO mapreduce.Job:  map 96% reduce 29%
+2024-06-22 15:27:32,369 INFO mapreduce.Job:  map 98% reduce 29%
+2024-06-22 15:27:33,376 INFO mapreduce.Job:  map 100% reduce 30%
+2024-06-22 15:27:34,382 INFO mapreduce.Job:  map 100% reduce 66%
+2024-06-22 15:27:35,391 INFO mapreduce.Job:  map 100% reduce 100%
+2024-06-22 15:27:35,400 INFO mapreduce.Job: Job job_1718995047229_0073 completed successfully
+2024-06-22 15:27:35,471 INFO mapreduce.Job: Counters: 56
+	File System Counters
+		FILE: Number of bytes read=499308
+		FILE: Number of bytes written=4338376
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=2147547200
+		HDFS: Number of bytes written=576
+		HDFS: Number of read operations=58
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=4
+	Job Counters 
+		Killed map tasks=1
+		Killed reduce tasks=1
+		Launched map tasks=17
+		Launched reduce tasks=2
+		Data-local map tasks=9
+		Rack-local map tasks=8
+		Total time spent by all maps in occupied slots (ms)=10317748
+		Total time spent by all reduces in occupied slots (ms)=2995150
+		Total time spent by all map tasks (ms)=5158874
+		Total time spent by all reduce tasks (ms)=1497575
+		Total vcore-milliseconds taken by all map tasks=5158874
+		Total vcore-milliseconds taken by all reduce tasks=1497575
+		Total megabyte-milliseconds taken by all map tasks=1320671744
+		Total megabyte-milliseconds taken by all reduce tasks=383379200
+	Map-Reduce Framework
+		Map input records=39753957
+		Map output records=2067966089
+		Map output bytes=20679660890
+		Map output materialized bytes=5184
+		Input split bytes=2112
+		Combine input records=2067983145
+		Combine output records=17472
+		Reduce input groups=26
+		Reduce shuffle bytes=5184
+		Reduce input records=416
+		Reduce output records=26
+		Spilled Records=32448
+		Shuffled Maps =32
+		Failed Shuffles=0
+		Merged Map outputs=32
+		GC time elapsed (ms)=77531
+		CPU time spent (ms)=2072220
+		Physical memory (bytes) snapshot=4889505792
+		Virtual memory (bytes) snapshot=33768980480
+		Total committed heap usage (bytes)=3660054528
+		Peak Map Physical memory (bytes)=297435136
+		Peak Map Virtual memory (bytes)=1889107968
+		Peak Reduce Physical memory (bytes)=189784064
+		Peak Reduce Virtual memory (bytes)=1892548608
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=2147545088
+	File Output Format Counters 
+		Bytes Written=576
