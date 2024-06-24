@@ -1,0 +1,6 @@
+Dimensione file: file_2KB
+Tempo di esecuzione: 2710.18 ms
+Tempo di CPU: 31.25 ms
+Memoria massima utilizzata: 68288512 bytes
+
+

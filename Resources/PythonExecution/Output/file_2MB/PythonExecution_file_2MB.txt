@@ -1,0 +1,6 @@
+Dimensione file: file_2MB
+Tempo di esecuzione: 1802.76 ms
+Tempo di CPU: 1140.62 ms
+Memoria massima utilizzata: 68395008 bytes
+
+
