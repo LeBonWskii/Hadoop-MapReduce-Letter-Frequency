@@ -10,10 +10,10 @@ fi
 parent_dir=$(dirname $(pwd))
 
 # Project name
-project_name="InMapping"
+project_name="Combiner"
 
 # Number of reducers
-num_reducers_value=3
+num_reducers_value=1
 
 # Performance mode
 performance=false
