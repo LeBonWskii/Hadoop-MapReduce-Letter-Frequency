@@ -74,10 +74,6 @@ public class TotalLetterCount{
     
         // Classe Combiner
         TotalLetterCountJob.setCombinerClass(TotalLetterCountReducer.class);
-
-        // classi per l'output del mapper
-        TotalLetterCountJob.setMapOutputKeyClass(Text.class);
-        TotalLetterCountJob.setMapOutputValueClass(LongWritable.class);
     
         // classi per l'output del reducer
         TotalLetterCountJob.setOutputKeyClass(Text.class);

@@ -44,7 +44,6 @@ public class LetterCount {
             }
 
             letterCount.set(letterCount.get() + localCounter);
-        
         }
     
         @Override
@@ -87,10 +86,6 @@ public class LetterCount {
         TotalLetterCountJob.setJarByClass(LetterCount.class);
         TotalLetterCountJob.setMapperClass(LetterCountMapper.class);
         TotalLetterCountJob.setReducerClass(LetterCountReducer.class);
-    
-        // classi per l'output del mapper
-        TotalLetterCountJob.setMapOutputKeyClass(Text.class);
-        TotalLetterCountJob.setMapOutputValueClass(LongWritable.class);
     
         // classi per l'output del reducer
         TotalLetterCountJob.setOutputKeyClass(Text.class);
